@@ -1,2 +1,5 @@
-config SHIELD_TUBETEST
-    def_bool $(shields_list_contains,tubetest)
+config SHIELD_TUBETEST_LEFT
+	def_bool $(shields_list_contains,tubetest_left)
+
+config SHIELD_TUBETEST_RIGHT
+	def_bool $(shields_list_contains,tubetest_right)
