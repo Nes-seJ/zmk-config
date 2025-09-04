@@ -10,7 +10,7 @@
 
         default_layer {
             bindings = <
-                &bt BT_CLR  &finder_downloads  &finder_desktop  &finder_home
+                &kb q   &kb w   &kb e   &kb r
             >;
         };
     };
